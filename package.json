@@ -1,0 +1,16 @@
+{
+  "name": "material-store-front",
+  "version": "0.0.1",
+  "description": "An online store front using HTML5, Materialize CSS, AngularJS
+  NodeJsS, MongoDB, and a Restful API serving all the item objects",
+  "main": "server.js",
+  "author": "Nick Staggs",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "method-override": "^2.1.3",
+    "mongoose": "^4.4.12",
+    "morgan": "^1.1.1",
+    "winston": "^2.3.1"
+  }
+}
