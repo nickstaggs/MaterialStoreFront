@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -28,17 +27,23 @@
         </div>
       </nav>
     </div>
-    
+
     <!--=================  SIDE NAV  ==============================-->
     <ul id="slide-out" class="side-nav">
-      <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-      <li><a href="#!">Second Link</a></li>
-      <li><div class="divider"></div></li>
-      <li><a class="subheader">Subheader</a></li>
-      <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+      <li><a href="/"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+      <li><a href="/">Second Link</a></li>
+      <li><a class="waves-effect" href="/">Third Link With Waves</a></li>
     </ul>
 
+    <!--=====================  Dynamic Content  ===========================-->
     <ng-view  onload=""  $autoscroll=""></ng-view>
 
+  <!--====================  JavaScript Imports  =============================-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.js"></script>
+  <script src="../app/models/items.js"></script>
+  <script src="../app/routes.js"></script>
   </body>
 </html>

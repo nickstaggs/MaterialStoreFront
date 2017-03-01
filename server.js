@@ -12,7 +12,7 @@ var methodOverride = require('method-override');
 var path = require('path');
 var fs = require('fs');
 var winston = require("winston");
-
+var angular = require("angular");
 // configuration ===============================================================
 
 // set the static files location /public/img will be /img for users app.use(express.static('./public'));
@@ -34,6 +34,7 @@ app.use(bodyParser.json({type: 'application/vnd.api+json'}));
 // override with the X-HTTP-Method-Override header in the request
 app.use(methodOverride('X-HTTP-Method-Override'));
 
+app.use()
 /*******************************************************************************
 * LOGGER
 *******************************************************************************/
